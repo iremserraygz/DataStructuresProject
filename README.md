@@ -1,37 +1,33 @@
-# Polynomial Operations and Stack Tasks  
-**Data Structures and Algorithms**  
+📚 Polynomial Operations & Stack Tasks
+Data Structures and Algorithms 💻
 
+This project is developed as part of the Data Structures and Algorithms course. It focuses on solving two distinct problems using Java: linked list operations and stack operations.
 
-This project is developed as part of the Data Structures and Algorithms course. It involves implementing solutions to two distinct problems using Java, focusing on linked lists and stacks.  
+📋 Project Overview
+🧮 Problem 1: Polynomial Operations
+In this part, singly linked lists are used to represent and perform operations on two polynomials. The implemented features include:
 
-## Project Overview  
+Addition: Adds two polynomials and returns the resulting polynomial. ➕
+Multiplication: Multiplies two polynomials and calculates the resulting polynomial. ✖️
+Printing: Displays the polynomial in a human-readable format. 🖨️
+Deletion: Removes a node with a specific power from the polynomial. 🗑️
+The program prompts the user to input the coefficients and powers of two polynomials and provides a menu to choose the desired operation.
 
-### Problem 1: Polynomial Operations  
-In this part of the project, singly linked lists are used to represent and perform operations on two polynomials. The implemented features include:  
-1. **Addition:** Adding two polynomials and returning the resulting polynomial.  
-2. **Multiplication:** Multiplying two polynomials and calculating the resultant polynomial.  
-3. **Printing:** Displaying the polynomial in a human-readable format.  
-4. **Deletion:** Removing a node with a specific power from the polynomial.  
+🔢 Problem 2: Stack Operations
+This part implements a stack of strings using a custom array-based stack class. The operations include:
 
-The program prompts the user to input the coefficients and powers of two polynomials and provides a menu to choose the desired operation.  
+Push: Adds multiple strings to the stack. ⬆️
+Pop: Removes the topmost element from the stack. ⬇️
+Print: Displays the contents of the stack. 📝
+Check Palindrome: Verifies if the stack is a palindrome. 🔄
+Delete Middle: Removes the middle element from the stack if its size is odd. ❌
+The program allows the user to interact with the stack through a menu-driven interface, adhering to the constraint of using only one temporary stack for operations.
 
----
-
-### Problem 2: Stack Operations  
-This part implements a stack of strings using a custom array-based stack class. The operations include:  
-1. **Push:** Adding multiple strings to the stack.  
-2. **Pop:** Removing the topmost element from the stack.  
-3. **Print:** Displaying the contents of the stack.  
-4. **Check Palindrome:** Verifying if the stack is a palindrome.  
-5. **Delete Middle:** Removing the middle element from the stack if its size is odd.  
-
-The program allows the user to interact with the stack through a menu-driven interface, adhering to the constraints of using only one temporary stack for operations.  
-
----
-
-## Sample Run  
-### Problem 1: Polynomial Operations  
-```text
+🖥️ Sample Run
+Problem 1: Polynomial Operations
+text
+Kopyala
+Düzenle
 Enter the coefficients and powers of the first polynomial. Type 0 at the end:  
 2 5  
 3 3  
